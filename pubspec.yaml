@@ -1,0 +1,13 @@
+name: dartboot_annotation
+description: The annotation library for DartBoot framework. https://github.com/dartboot/dartboot_annotation.
+version: 1.0.0
+homepage: https://github.com/dartboot/dartboot_annotation
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  # nothing need.
+
+dev_dependencies:
+

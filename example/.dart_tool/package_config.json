@@ -1,0 +1,20 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "dartboot_annotation",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "example",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    }
+  ],
+  "generated": "2021-03-18T09:01:44.791240Z",
+  "generator": "pub",
+  "generatorVersion": "2.10.4"
+}

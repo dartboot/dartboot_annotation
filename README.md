@@ -1,8 +1,11 @@
 # dartboot_annotation
 
-Support annotation list:
-`@Get`: Http get request endpoint annotation
-`@Post`: 
-`@Bean`:
-`@RestController`:
-`@Table`:
+当前已支持的注解:
+
+| 注解名 | 参数 | 描述 | 
+| :---- | :---- | :---- |
+| @BootContext() | -- | 上下文注解，仅用于`dartboot_core`库，请勿直接使用该注解！！|
+| @Bean() | -- | 自动注入类注解，`dartboot_core`会扫描包含该注解的类，并且会在扫描后立即执行无参构造函数 |
+| | `name` | 类的别名，用于其他自动注入类的依赖 |
+| | `dependencies` | 类依赖，参数值为其他注入类的别名，该参数会影响类的初始化顺序，被依赖的类会先构造 |
+| | `conditionOnProperty` | 自动注入条件，当包含该参数值的应用属性（不会对属性值做判断）时，才会初始化当前类 |

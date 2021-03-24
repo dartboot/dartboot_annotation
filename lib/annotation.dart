@@ -1,6 +1,7 @@
 export 'src/api.dart';
 export 'src/bean.dart';
 export 'src/body.dart';
+export 'src/boot_application.dart';
 export 'src/boot_context.dart';
 export 'src/column.dart';
 export 'src/delete.dart';
